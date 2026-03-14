@@ -36,11 +36,17 @@ A comparative simulation study benchmarking TMLE and C-TMLE estimators across lo
 
 `R` `TMLE` `C-TMLE` `glmnet` `Causal Inference` `Simulation`
 
+### 🔧 [TMLE.jl — Open Source Contributor](https://github.com/TARGENE/TMLE.jl)
+Actively extending `TMLE.jl` — a Julia package for Targeted Minimum Loss-Based Estimation published in the *Journal of Open Source Software* (2025) — by integrating **Collaborative TMLE (C-TMLE) estimators** into the package. Successfully implemented Lasso C-TMLE with bootstrap simulation studies and test coverage. Developed in collaboration with the TARGENE research group at the University of Edinburgh.
+
+`Julia` `TMLE` `C-TMLE` `Causal Inference` `Open Source` `Research Software`
+
 ---
 
 ## 📚 Currently
 
 - 🎓 PhD in Statistics — University of Edinburgh *(causal inference, missing data, UK Biobank)*
+- 🔧 Integrating C-TMLE estimators into [`TMLE.jl`](https://github.com/TARGENE/TMLE.jl) *(Lasso C-TMLE implemented & tested)*
 - 🔍 Actively seeking a summer 2026 placement in Edinburgh
 - 📖 Reading: *What If* by Hernán & Robins *(the causal inference bible)*
 
