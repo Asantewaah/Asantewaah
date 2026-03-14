@@ -14,7 +14,7 @@ I'm currently looking for a **summer 2026 placement or internship** in Edinburgh
 - **Statistical Modelling** — high-dimensional regression, semiparametric efficiency theory
 - **Machine Learning** — LASSO/elastic net, SuperLearner, ensemble methods
 - **Data Visualisation** — ggplot2, Tableau, Power BI, Looker
-- **Health & Genomic Data** — UK Biobank, observational study design, missing data
+- **Health & Genomic Data** — Dataloch, DecodeME, UK Biobank, observational study design, missing data
 
 ---
 
