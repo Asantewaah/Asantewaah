@@ -1,10 +1,10 @@
 # Hi, I'm Juliet 👋
 
-I'm a **PhD researcher in Statistics** at the University of Edinburgh, working at the intersection of causal inference, machine learning, and large-scale health data. My research focuses on estimating causal effects from observational healthcare and genomic data — specifically applying Collaborative Targeted Maximum Likelihood Estimation (C-TMLE) to the UK Biobank.
+I'm a **PhD researcher in Statistics** at the University of Edinburgh, working at the intersection of causal inference, machine learning, and large-scale health data. My research focuses on estimating causal effects from observational healthcare and genomic data, specifically applying Collaborative Targeted Maximum Likelihood Estimation (C-TMLE) to the UK Biobank.
 
 Before my PhD, I spent 4+ years as a data scientist and analyst, delivering data-driven insights for multinational clients including Microsoft, Unilever, P&G, and Betway. I love bridging the gap between rigorous statistical methodology and real-world impact.
 
-I'm currently looking for a **summer 2026 placement or internship** in Edinburgh — ideally in health/life sciences, financial services, or tech.
+I'm currently looking for a **summer 2026 placement or internship** in Edinburgh, ideally in health/life sciences, financial services, or tech.
 
 ---
 
@@ -37,7 +37,7 @@ A comparative simulation study benchmarking TMLE and C-TMLE estimators across lo
 `R` `TMLE` `C-TMLE` `glmnet` `Causal Inference` `Simulation`
 
 ### 🔧 [TMLE.jl — Open Source Contributor](https://github.com/TARGENE/TMLE.jl)
-Actively extending `TMLE.jl` — a Julia package for Targeted Minimum Loss-Based Estimation published in the *Journal of Open Source Software* (2025) — by integrating **Collaborative TMLE (C-TMLE) estimators** into the package. Successfully implemented Lasso C-TMLE with bootstrap simulation studies and test coverage. Developed in collaboration with the TARGENE research group at the University of Edinburgh.
+Actively extending `TMLE.jl` — a Julia package for Targeted Minimum Loss-Based Estimation published in the *Journal of Open Source Software* (2025), by integrating **Collaborative TMLE (C-TMLE) estimators** into the package. Successfully implemented Lasso C-TMLE with bootstrap simulation studies and test coverage. Developed in collaboration with the TARGENE research group at the University of Edinburgh.
 
 `Julia` `TMLE` `C-TMLE` `Causal Inference` `Open Source` `Research Software`
 
