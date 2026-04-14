@@ -4,7 +4,7 @@ I'm a **PhD researcher in Statistics** at the University of Edinburgh, working a
 
 Before my PhD, I spent 4+ years as a data scientist and analyst, delivering data-driven insights for multinational clients including Microsoft, Unilever, P&G, and Betway. I love bridging the gap between rigorous statistical methodology and real-world impact.
 
-I'm currently looking for a **summer 2026 placement or internship** in Edinburgh, ideally in health/life sciences, financial services, or tech.
+I'm currently looking for a **summer 2027 placement or internship** in Edinburgh, ideally in health/life sciences, financial services, or tech.
 
 ---
 
