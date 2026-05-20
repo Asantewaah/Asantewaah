@@ -47,7 +47,7 @@ Actively extending `TMLE.jl` — a Julia package for Targeted Minimum Loss-Based
 
 - 🎓 PhD in Statistics — University of Edinburgh *(causal inference, missing data, UK Biobank)*
 - 🔧 Integrating C-TMLE estimators into [`TMLE.jl`](https://github.com/TARGENE/TMLE.jl) *(Lasso C-TMLE implemented & tested)*
-- 🔍 Actively seeking a summer 2026 placement in Edinburgh
+- 🔍 Actively seeking a summer 2027 placement in Edinburgh
 - 📖 Reading: *What If* by Hernán & Robins *(the causal inference bible)*
 
 ---
