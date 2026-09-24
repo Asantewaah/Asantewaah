@@ -35,7 +35,7 @@ A comparative simulation study benchmarking TMLE and C-TMLE estimators across lo
 
 `R` `TMLE` `C-TMLE` `glmnet` `Causal Inference` `Simulation`
 
-### 🔧 [TMLE.jl - Open Source Contributor](https://github.com/TARGENE/TMLE.jl)
+### 🔧 [TMLE.jl — Open Source Contributor](https://github.com/TARGENE/TMLE.jl)
 
 Actively extending `TMLE.jl` - a Julia package for Targeted Minimum Loss-Based Estimation published in the *Journal of Open Source Software* (2025), by integrating **Collaborative TMLE (C-TMLE) estimators** into the package. Successfully implemented Lasso C-TMLE with bootstrap simulation studies and test coverage. Developed in collaboration with the TARGENE research group at the University of Edinburgh.
 
@@ -70,6 +70,22 @@ On 41,188 real bank calls, targeting the top-scored 30% of clients wins **2.5× 
 
 </td>
 </tr>
+<tr>
+<td width="50%" valign="top">
+
+**[What makes a board game highly rated?](https://github.com/Asantewaah/boardgame-ratings)**
+
+<a href="https://asantewaah.github.io/boardgame-ratings/"><img src="assets/boardgame-app.gif" alt="Interactive R Shiny app predicting a board game's BoardGameGeek rating and what drives it"></a>
+
+An R analysis of 15,249 BoardGameGeek games, with a [**live Shiny app**](https://asantewaah.github.io/boardgame-ratings/) that runs in the browser via WebAssembly. Release year is the strongest predictor, and many popular mechanics lose their advantage once year and length are held constant.
+
+`R` `tidyverse` `glmnet` `ranger` `Shiny`
+
+</td>
+<td width="50%" valign="top">
+
+</td>
+</tr>
 </table>
 
 ---
@@ -84,7 +100,7 @@ On 41,188 real bank calls, targeting the top-scored 30% of clients wins **2.5× 
 
 ## 📫 Get In Touch
 
-I'm always happy to connect - whether it's about causal inference, data science, or potential collaborations.
+I'm always happy to connect — whether it's about causal inference, data science, or potential collaborations.
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-asantewaah.github.io-1D1B4C?style=flat&logo=googlechrome&logoColor=white)](https://asantewaah.github.io)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/juliet-asantewaa-sarpong)
