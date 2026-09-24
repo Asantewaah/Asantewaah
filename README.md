@@ -8,7 +8,7 @@ Before my PhD, I spent 4+ years as a data scientist and analyst, delivering data
 
 ## 🔬 What I Work On
 
-- **Causal Inference** - TMLE, C-TMLE, IPW, propensity score methods
+- **Causal Inference** - C-TMLE,TMLE, IPW, propensity score methods
 - **Statistical Modelling** - high-dimensional regression, semiparametric efficiency theory
 - **Machine Learning** - LASSO/elastic net, SuperLearner, ensemble methods
 - **Data Visualisation** - ggplot2, Tableau, Power BI, Looker
