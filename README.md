@@ -45,48 +45,29 @@ Actively extending `TMLE.jl` - a Julia package for Targeted Minimum Loss-Based E
 
 ## 📊 Applied Data Science
 
-<table>
-<tr>
-<td width="50%" valign="top">
+### [Did the email campaign actually work?](https://github.com/Asantewaah/email-campaign-causal-impact)
 
-**[Did the email campaign actually work?](https://github.com/Asantewaah/email-campaign-causal-impact)**
-
-<a href="https://github.com/Asantewaah/email-campaign-causal-impact"><img src="assets/email-campaign.gif" alt="As a campaign targets high-value customers more strongly, the naive estimate drifts upwards while TMLE stays on the true effect"></a>
+<a href="https://github.com/Asantewaah/email-campaign-causal-impact"><img src="assets/email-campaign.gif" width="100%" alt="As a campaign targets high-value customers more strongly, the naive estimate drifts upwards while TMLE stays on the true effect"></a>
 
 When a campaign targets its best customers, a naive comparison overstated the email's impact by **about 60%**. Checked against a real randomised experiment on 64,000 customers, AIPW and TMLE (implemented from scratch) recover the true effect with honest 95% intervals.
 
 `Python` `TMLE` `AIPW` `Marketing`
 
-</td>
-<td width="50%" valign="top">
+### [Who should the bank call?](https://github.com/Asantewaah/marketing-financial-analytics)
 
-**[Who should the bank call?](https://github.com/Asantewaah/marketing-financial-analytics)**
-
-<a href="https://github.com/Asantewaah/marketing-financial-analytics"><img src="assets/bank-targeting.gif" alt="Cumulative gains curve: calling the top-scored 30% of clients reaches 75% of subscribers"></a>
+<a href="https://github.com/Asantewaah/marketing-financial-analytics"><img src="assets/bank-targeting.gif" width="100%" alt="Cumulative gains curve: calling the top-scored 30% of clients reaches 75% of subscribers"></a>
 
 On 41,188 real bank calls, targeting the top-scored 30% of clients wins **2.5× the subscriptions** of random calling on the same budget, keeping 93% of the profit with 70% fewer calls. Explained with SHAP and stress-tested on a time-based split.
 
 `Python` `XGBoost` `SHAP` `Finance`
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+### [What makes a board game highly rated?](https://github.com/Asantewaah/boardgame-ratings)
 
-**[What makes a board game highly rated?](https://github.com/Asantewaah/boardgame-ratings)**
-
-<a href="https://github.com/Asantewaah/boardgame-ratings"><img src="assets/boardgame-app.gif" alt="Interactive R Shiny app predicting a board game's BoardGameGeek rating and what drives it"></a>
+<a href="https://github.com/Asantewaah/boardgame-ratings"><img src="assets/boardgame-app.gif" width="100%" alt="Interactive R Shiny app predicting a board game's BoardGameGeek rating and what drives it"></a>
 
 An R analysis of 15,249 BoardGameGeek games, with a [**live Shiny app**](https://github.com/Asantewaah/boardgame-ratings) that runs in the browser via WebAssembly. Release year is the strongest predictor, and many popular mechanics lose their advantage once year and length are held constant.
 
 `R` `tidyverse` `glmnet` `ranger` `Shiny`
-
-</td>
-<td width="50%" valign="top">
-
-</td>
-</tr>
-</table>
 
 ---
 
@@ -100,7 +81,7 @@ An R analysis of 15,249 BoardGameGeek games, with a [**live Shiny app**](https:/
 
 ## 📫 Get In Touch
 
-I'm always happy to connect — whether it's about causal inference, data science, or potential collaborations.
+I'm always happy to connect - whether it's about causal inference, data science, or potential collaborations.
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-asantewaah.github.io-1D1B4C?style=flat&logo=googlechrome&logoColor=white)](https://asantewaah.github.io)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/juliet-asantewaa-sarpong)
