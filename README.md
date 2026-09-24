@@ -84,7 +84,7 @@ On 41,188 real bank calls, targeting the top-scored 30% of clients wins **2.5× 
 
 ## 📫 Get In Touch
 
-I'm always happy to connect — whether it's about causal inference, data science, or potential collaborations.
+I'm always happy to connect - whether it's about causal inference, data science, or potential collaborations.
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-asantewaah.github.io-1D1B4C?style=flat&logo=googlechrome&logoColor=white)](https://asantewaah.github.io)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/juliet-asantewaa-sarpong)
