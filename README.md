@@ -65,7 +65,7 @@ On 41,188 real bank calls, targeting the top-scored 30% of clients wins **2.5× 
 
 <a href="https://github.com/Asantewaah/boardgame-ratings"><img src="assets/boardgame-app.gif" width="100%" alt="Interactive R Shiny app predicting a board game's BoardGameGeek rating and what drives it"></a>
 
-An R analysis of 15,249 BoardGameGeek games, with a [**live Shiny app**](https://github.com/Asantewaah/boardgame-ratings) that runs in the browser via WebAssembly. Release year is the strongest predictor, and many popular mechanics lose their advantage once year and length are held constant.
+An R analysis of 15,249 BoardGameGeek games, with a [**live Shiny app**](https://asantewaah.github.io/boardgame-ratings/.) that runs in the browser via WebAssembly. Release year is the strongest predictor, and many popular mechanics lose their advantage once year and length are held constant.
 
 `R` `tidyverse` `glmnet` `ranger` `Shiny`
 
