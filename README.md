@@ -8,7 +8,7 @@ Before my PhD, I spent 4+ years as a data scientist and analyst, delivering data
 
 ## 🔬 What I Work On
 
-- **Causal Inference** - C-TMLE,TMLE, IPW, propensity score methods
+- **Causal Inference** - C-TMLE, TMLE, IPW, propensity score methods
 - **Statistical Modelling** - high-dimensional regression, semiparametric efficiency theory
 - **Machine Learning** - LASSO/elastic net, SuperLearner, ensemble methods
 - **Data Visualisation** - ggplot2, Tableau, Power BI, Looker
@@ -35,7 +35,15 @@ A comparative simulation study benchmarking TMLE and C-TMLE estimators across lo
 
 `R` `TMLE` `C-TMLE` `glmnet` `Causal Inference` `Simulation`
 
-### 🔧 [TMLE.jl — Open Source Contributor](https://github.com/TARGENE/TMLE.jl)
+### ⚖️ [More adjustment is not always better: C-TMLE in Julia](https://github.com/Asantewaah/ctmle-breakdown)
+
+<a href="https://github.com/Asantewaah/ctmle-breakdown"><img src="assets/ctmle-breakdown.gif" width="100%" alt="As instruments get stronger, estimators that adjust for every covariate scatter while C-TMLE stays close to the oracle"></a>
+
+Adjusting for every available covariate sounds safe, but covariates that only drive treatment make estimates unstable. In a 500-dataset simulation run on the Eddie HPC cluster, **C-TMLE was 2.5× more accurate than AIPW** with strong instruments and nearly matched an oracle that knew the true confounders, without being told which covariates matter. Built with TMLE.jl, with an interactive Pluto notebook.
+
+`Julia` `TMLE.jl` `C-TMLE` `Simulation` `HPC`
+
+### 🔧 [TMLE.jl - Open Source Contributor](https://github.com/TARGENE/TMLE.jl)
 
 Actively extending `TMLE.jl` - a Julia package for Targeted Minimum Loss-Based Estimation published in the *Journal of Open Source Software* (2025), by integrating **Collaborative TMLE (C-TMLE) estimators** into the package. Successfully implemented Lasso C-TMLE with bootstrap simulation studies and test coverage. Developed in collaboration with the TARGENE research group at the University of Edinburgh.
 
@@ -49,23 +57,23 @@ Actively extending `TMLE.jl` - a Julia package for Targeted Minimum Loss-Based E
 
 <a href="https://github.com/Asantewaah/email-campaign-causal-impact"><img src="assets/email-campaign.gif" width="100%" alt="As a campaign targets high-value customers more strongly, the naive estimate drifts upwards while TMLE stays on the true effect"></a>
 
-When a campaign targets its best customers, a naive comparison overstated the email's impact by **about 60%**. Checked against a real randomised experiment on 64,000 customers, AIPW and TMLE (implemented from scratch) recover the true effect with honest 95% intervals.
+When a campaign targets its best customers, a naive comparison overstated the email's impact by **about 60%**. Checked against a real randomised experiment on 64,000 customers, AIPW and TMLE (implemented from scratch) recover the true effect with honest 95% intervals. A causal forest trained only on the targeted data then finds *who* responds, and its ranking holds up against the experiment.
 
-`Python` `TMLE` `AIPW` `Marketing`
+`Python` `TMLE` `AIPW` `Causal forest` `Marketing`
 
 ### [Who should the bank call?](https://github.com/Asantewaah/marketing-financial-analytics)
 
 <a href="https://github.com/Asantewaah/marketing-financial-analytics"><img src="assets/bank-targeting.gif" width="100%" alt="Cumulative gains curve: calling the top-scored 30% of clients reaches 75% of subscribers"></a>
 
-On 41,188 real bank calls, targeting the top-scored 30% of clients wins **2.5× the subscriptions** of random calling on the same budget, keeping 93% of the profit with 70% fewer calls. Explained with SHAP and stress-tested on a time-based split.
+On 41,188 real bank calls, targeting the top-scored 30% of clients wins **2.5× the subscriptions** of random calling on the same budget, keeping 93% of the profit with 70% fewer calls. Calibrated probabilities forecast a campaign's subscriptions to within about 5% and give a break-even calling rule that needs no hindsight.
 
-`Python` `XGBoost` `SHAP` `Finance`
+`Python` `XGBoost` `SHAP` `Calibration` `Finance`
 
 ### [What makes a board game highly rated?](https://github.com/Asantewaah/boardgame-ratings)
 
 <a href="https://github.com/Asantewaah/boardgame-ratings"><img src="assets/boardgame-app.gif" width="100%" alt="Interactive R Shiny app predicting a board game's BoardGameGeek rating and what drives it"></a>
 
-An R analysis of 15,249 BoardGameGeek games, with a [**live Shiny app**](https://asantewaah.github.io/boardgame-ratings/.) that runs in the browser via WebAssembly. Release year is the strongest predictor, and many popular mechanics lose their advantage once year and length are held constant.
+An R analysis of 15,249 BoardGameGeek games, with a [**live Shiny app**](https://asantewaah.github.io/boardgame-ratings/) that runs in the browser via WebAssembly. Release year is the strongest predictor, and many popular mechanics lose their advantage once year and length are held constant.
 
 `R` `tidyverse` `glmnet` `ranger` `Shiny`
 
