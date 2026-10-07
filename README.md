@@ -1,6 +1,6 @@
 # Hi, I'm Juliet 👋
 
-I'm a **PhD researcher in Statistics** at the University of Edinburgh, working at the intersection of causal inference, machine learning, and large-scale health data. My research focuses on estimating causal effects from observational healthcare and genomic data, specifically applying Collaborative Targeted Maximum Likelihood Estimation (C-TMLE) to the UK Biobank.
+I'm a **PhD researcher in Statistics** at the University of Edinburgh, working at the intersection of causal inference, machine learning, and large-scale health data. My research focuses on estimating causal effects from observational healthcare and genomic data, specifically with the goal of applying Collaborative Targeted Maximum Likelihood Estimation (C-TMLE) to UK Biobank and on other biomedical databases.
 
 Before my PhD, I spent 4+ years as a data scientist and analyst, delivering data-driven insights for multinational clients including Microsoft, Unilever, P&G, and Betway. I love bridging the gap between rigorous statistical methodology and real-world impact.
 
