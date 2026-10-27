@@ -1,4 +1,4 @@
-# Hi, I'm Juliet 👋
+# Hi, I'm Asantewaa 👋
 
 I'm a **PhD researcher in Statistics** at the University of Edinburgh, working at the intersection of causal inference, machine learning, and large-scale health data. My research focuses on estimating causal effects from observational healthcare and genomic data, specifically with the goal of applying Collaborative Targeted Maximum Likelihood Estimation (C-TMLE) to UK Biobank and on other biomedical databases.
 
